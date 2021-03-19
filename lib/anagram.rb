@@ -15,7 +15,7 @@ def compare
 end
 
 def find_anagrams
-    @word.split("").each do |letter_1| #split word into letters and operate on each letter
+    @word.split("").collect do |letter_1| #split word into letters and operate on each letter
       letter_1.match(@some_array[x].split(""))
     end
 end
