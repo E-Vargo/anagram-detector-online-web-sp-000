@@ -8,8 +8,8 @@ def initialize(word)
 end
 
 def match(array)
-   @word.split("").each.match(array)
-
+   word_array = @word.split("")
+   word_array.match(array)
 end
 
 end
