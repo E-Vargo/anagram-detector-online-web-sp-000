@@ -7,8 +7,8 @@ def initialize(word)
 @word = word
 end
 
+def match(array)
 
-def match(some_array)
 
 end
 
