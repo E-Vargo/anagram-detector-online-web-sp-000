@@ -16,7 +16,7 @@ end
 
 def find_anagrams
     @word.split("").collect do |letter_1| #split word into letters and operate on each letter
-      letter_1.match {@some_array.each { |x| x.split("")})}
+      letter_1.match {@some_array.each { |x| x.split("")}}
     end
 end
 
