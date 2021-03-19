@@ -7,7 +7,15 @@ def initialize(word)
 @word = word
 end
 
+def match(some_array)
+  @some_array = some_array
+end
 
+def find_anagrams
+@word.split("")
+
+
+end
 
 
 
