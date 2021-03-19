@@ -8,7 +8,7 @@ def initialize(word)
 end
 
 def match(array)
-   @word.split("").each.match(array.each.split)
+   @word.split("").each.match(array)
 
 end
 
