@@ -11,8 +11,12 @@ def match(some_array)
   @some_array = some_array
 end
 
-def find_anagrams
-@word.split("")
+  def find_anagrams
+    @word.split("").collect |x| do
+
+
+    end
+  end
 
 
 end
