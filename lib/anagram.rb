@@ -9,12 +9,7 @@ end
 
 
 def match(some_array)
-  @some_array = some_array
-    @word.split("").collect do |letter_0| #split word into letters and operate on each letter
-      result = letter_0.match (@some_array.each { |x| x.split("")})
-    end
-    result
-end
 
+end
 
 end
