@@ -9,7 +9,7 @@ end
 
 def match(array)
    word_array = @word.split("")
-    array.collect |x| do
+    array.collect do |x|
     if x.split.sort == word_array.sort
       x
   end
