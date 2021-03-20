@@ -12,6 +12,7 @@ def match(array)
     array.collect do |x|
     if x.split.sort == word_array.sort
       x
+    end
   end
 end
 
