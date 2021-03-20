@@ -10,9 +10,8 @@ end
 def match(array)
    word_array = @word.split("")
     array.each do |x|
-    if x.split.sort == word_array.sort
-       x
-    end
+     x.split.sort == word_array.sort
+
   end
 end
 
